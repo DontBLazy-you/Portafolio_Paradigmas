@@ -22,11 +22,11 @@ markup:
 params:
   title: "David Otoniel"
   description: "Portafolio de Paradigmas de Programación"
-  favicon: "/fav.png"
+  favicon: "/Portafolio_Paradigmas/images/logo.png"
   animate: true
 
   navbar:
-    brandName: "David Otoniel"
+    brandName: Portafolio
     disableSearch: true
     stickyNavBar:
       enable: true
@@ -36,11 +36,11 @@ params:
     enable: true
     intro: "Hola, mi nombre es"
     title: "David Otoniel."
-    subtitle: "Estudiante de Ingeniería en Computación"
+    subtitle: "Estudiante de Ingeniería de Software y Tecnologías Emergentes"
     content: "Este es mi portafolio de la clase de Paradigmas de Programación."
-    image: /images/hero.svg
+    image: /Portafolio_Paradigmas/images/avatar.png
     bottomImage:
-      enable: true
+      enable: false
     button:
       enable: false
     socialLinks:
@@ -76,12 +76,19 @@ params:
     items:
       - title: Practica 0
         content: Manejo de repositorios con Git y GitHub.
+        image: /Portafolio_Paradigmas/images/practica0.png
         badges:
           - "Git"
           - "GitHub"
+          - "Hugo"
+          - "Markdown"
+        featured:
+          name: "Ver práctica"
+          link: "/Portafolio_Paradigmas/practica0/"
+          newPage: false
 
   contact:
-    enable: true
+    enable: false
     content: "¿Tienes alguna pregunta? ¡Escríbeme!"
     btnName: "Correo"
     btnLink: mailto:david.norberto@uabc.edu.mx
