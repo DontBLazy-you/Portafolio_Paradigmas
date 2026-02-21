@@ -1,0 +1,89 @@
+baseURL: "https://dontblazy-you.github.io/Portafolio_Paradigmas/"
+languageCode: "en-us"
+title: "David Otoniel - Portafolio"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "David Otoniel"
+  description: "Portafolio de Paradigmas de Programación"
+  favicon: "/fav.png"
+  animate: true
+
+  navbar:
+    brandName: "David Otoniel"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+
+  hero:
+    enable: true
+    intro: "Hola, mi nombre es"
+    title: "David Otoniel."
+    subtitle: "Estudiante de Ingeniería en Computación"
+    content: "Este es mi portafolio de la clase de Paradigmas de Programación."
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/DontBLazy-you
+
+  about:
+    enable: true
+    title: "Sobre Mí"
+    content: "Estudiante de la UABC. Aquí encontrarás mis prácticas y proyectos del curso de Paradigmas de Programación."
+    skills:
+      enable: true
+      title: "Tecnologías que estoy aprendiendo:"
+      items:
+        - "Hugo"
+        - "Markdown"
+        - "Git"
+        - "GitHub"
+
+  experience:
+    enable: false
+
+  education:
+    enable: false
+
+  achievements:
+    enable: false
+
+  projects:
+    enable: true
+    title: "Mis Prácticas"
+    items:
+      - title: Practica 0
+        content: Manejo de repositorios con Git y GitHub.
+        badges:
+          - "Git"
+          - "GitHub"
+
+  contact:
+    enable: true
+    content: "¿Tienes alguna pregunta? ¡Escríbeme!"
+    btnName: "Correo"
+    btnLink: mailto:david.norberto@uabc.edu.mx
+
+  footer:
