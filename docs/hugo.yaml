@@ -93,4 +93,7 @@ params:
     btnName: "Correo"
     btnLink: mailto:david.norberto@uabc.edu.mx
 
+  terms:
+    toc: "Tabla de Contenidos"
+
   footer:
