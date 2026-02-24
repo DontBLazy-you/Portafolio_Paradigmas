@@ -478,4 +478,4 @@ jobs:
 
 [Portafolio Paradigmas de la Programación](https://github.com/DontBLazy-you/Portafolio_Paradigmas)
 
-[Página Estatica]([google.com](http://localhost:1313/Portafolio_Paradigmas/))
+[Página Estatica](https://dontblazy-you.github.io/Portafolio_Paradigmas/)
