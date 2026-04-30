@@ -466,13 +466,13 @@ jobs:
 
 ## Referencias
 
-- Gruber, J. (2004). *Markdown*. Daring Fireball. https://daringfireball.net/projects/markdown/
-- Atlassian. (s.f.). *¿Qué es Git?* Atlassian Git Tutorial. https://www.atlassian.com/es/git/tutorials/what-is-git
-- Chacon, S., & Straub, B. (2023). *Pro Git* (2.a ed.). Apress. https://git-scm.com/book/es/v2
-- GitHub. (2024). *Crear un repositorio*. GitHub Docs. https://docs.github.com/es/repositories/creating-and-managing-repositories/creating-a-new-repository
-- GitHub. (2024). *Introducción a GitHub Actions*. GitHub Docs. https://docs.github.com/es/actions/learn-github-actions/understanding-github-actions
-- GitHub. (2024). *Acerca de GitHub Pages*. GitHub Docs. https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages
-- Hugo Authors. (2024). *Hugo Documentation*. https://gohugo.io/documentation/
+- Gruber, J. (2004). *Markdown*. Daring Fireball. <https://daringfireball.net/projects/markdown/>
+- Atlassian. (s.f.). *¿Qué es Git?* Atlassian Git Tutorial. <https://www.atlassian.com/es/git/tutorials/what-is-git>
+- Chacon, S., & Straub, B. (2023). *Pro Git* (2.a ed.). Apress. <https://git-scm.com/book/es/v2>
+- GitHub. (2024). *Crear un repositorio*. GitHub Docs. <https://docs.github.com/es/repositories/creating-and-managing-repositories/creating-a-new-repository>
+- GitHub. (2024). *Introducción a GitHub Actions*. GitHub Docs. <https://docs.github.com/es/actions/learn-github-actions/understanding-github-actions>
+- GitHub. (2024). *Acerca de GitHub Pages*. GitHub Docs. <https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages>
+- Hugo Authors. (2024). *Hugo Documentation*. <https://gohugo.io/documentation/>
 
 ## Portafolio y Página estatica
 

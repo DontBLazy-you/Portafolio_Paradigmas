@@ -59,6 +59,7 @@ params:
         - "Hugo"
         - "Markdown"
         - "Git"
+        - "POO"
         - "GitHub"
 
   experience:
@@ -85,6 +86,18 @@ params:
         featured:
           name: "Ver práctica"
           link: "/Portafolio_Paradigmas/practica0/"
+          newPage: false
+
+      - title: Practica 2
+        content: Simulador de Estacionamiento con POO y Flask.
+        image: /Portafolio_Paradigmas/images/prac2.png
+        badges:
+          - "Python"
+          - "Flask"
+          - "POO"
+        featured:
+          name: "Ver práctica"
+          link: "/Portafolio_Paradigmas/practica2/"
           newPage: false
 
   contact:
