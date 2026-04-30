@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block contenido %}
+
+<h1>📊 Dashboard del Estacionamiento</h1>
+
+<div class="tarjetas">
+    <div class="tarjeta">
+        <h2>{{ ocupacion.libres }}</h2>
+        <p>Lugares libres</p>
+    </div>
+    <div class="tarjeta ocupado">
+        <h2>{{ ocupacion.ocupados }}</h2>
+        <p>Lugares ocupados</p>
+    </div>
+    <div class="tarjeta dinero">
+        <h2>${{ total }}</h2>
+        <p>Total recaudado</p>
+    </div>
+</div>
+
+<h2>Tickets Activos</h2>
+{% if tickets %}
+<table>
+    <thead>
+        <tr>
+            <th>#Ticket</th>
+            <th>Placa</th>
+            <th>Tipo</th>
+            <th>Lugar</th>
+            <th>Hora Entrada</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for t in tickets %}
+        <tr>
+            <td>{{ t.get_id() }}</td>
+            <td>{{ t.get_vehiculo().get_placa() }}</td>
+            <td>{{ t.get_vehiculo().get_tipo().value }}</td>
+            <td>{{ t.get_lugar().get_id() }}</td>
+            <td>{{ t.get_hora_entrada().strftime('%H:%M:%S') }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No hay vehículos estacionados actualmente.</p>
+{% endif %}
+
+<h2>Estado de Lugares</h2>
+<div class="lugares">
+    {% for lugar in ocupacion.lugares %}
+    <div class="lugar {{ 'ocupado' if lugar.esta_ocupado() else 'libre' }}">
+        {{ lugar.get_id() }}
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

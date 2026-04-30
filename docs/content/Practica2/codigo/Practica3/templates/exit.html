@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block contenido %}
+
+<h1>🚪 Registrar Salida</h1>
+
+{% if tickets %}
+<form method="POST" action="/salida">
+    <div class="campo">
+        <label>Selecciona el ticket:</label>
+        <select name="ticket_id">
+            {% for t in tickets %}
+            <option value="{{ t.get_id() }}">
+                #{{ t.get_id() }} — {{ t.get_vehiculo().get_placa() }} — Lugar {{ t.get_lugar().get_id() }}
+            </option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit">Registrar Salida</button>
+</form>
+{% else %}
+<p>No hay tickets activos para registrar salida.</p>
+{% endif %}
+
+{% endblock %}
