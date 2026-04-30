@@ -291,3 +291,5 @@ Al final el lograr que todo se juntara bajo el modelo MVC lo hizo todo mas accec
 [Portafolio Paradigmas de la Programación](https://github.com/DontBLazy-you/Portafolio_Paradigmas)
 
 [Página Estatica](https://dontblazy-you.github.io/Portafolio_Paradigmas/)
+
+[Código Practica 2](https://github.com/DontBLazy-you/Portafolio_Paradigmas/tree/master/docs/static/codigo_practica2)
